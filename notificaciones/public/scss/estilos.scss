@@ -1,0 +1,16 @@
+$primario : #303c54;
+
+@mixin fondo {
+    background-color: $primario;
+}
+*{
+    box-sizing: border-box;
+}
+body, html{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    @include fondo();
+}
